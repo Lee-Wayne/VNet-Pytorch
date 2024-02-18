@@ -43,6 +43,6 @@ if __name__ == '__main__':
     inputs = torch.randn(1, 1, 64, 128, 128) # BCDHW 
     inputs = inputs.to(device)
     out = model(inputs) 
-    print(out.shape) # torch.Size([1, 1, 64, 128, 128])
+    print(out.shape) # torch.Size([1, 2, 64, 128, 128])
     slices = out[0, 0, 32, :, :].detach().cpu().numpy()
     print(slices)
