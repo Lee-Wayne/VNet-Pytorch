@@ -5,3 +5,11 @@ The official implementation is available in this [repo](https://github.com/faust
 
 ## Difference with the official version
 This version add batch normalization.
+
+## Version Info
+Python version: 3.8.10
+
+| Package | Version |
+|---|---|
+|torch|1.13.1+cu117|
+|torchvision|0.14.1+cu117|
